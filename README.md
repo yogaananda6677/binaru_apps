@@ -11,7 +11,7 @@ Binaru aims to make foundational learning playful, adaptive, and accessible even
 
 ## Project Status
 
-**Pre-development / MVP architecture stage.** The repository has been bootstrapped, but product architecture and feature implementation have not begun.
+**Incremental MVP development.** Phase 0 — Application Foundation is complete. Phase 1 — Splash & Welcome is next and has not started.
 
 ## MVP Scope
 
@@ -71,6 +71,9 @@ flutter test
 ## Documentation
 
 - [Product Requirements](docs/PRD.md)
+- [Development Status](docs/DEVELOPMENT_STATUS.md)
+- [Development Roadmap](docs/ROADMAP.md)
+- [Development Log](docs/DEVLOG.md)
 - [Architecture status](docs/ARCHITECTURE.md)
 - [Maintainer Guide](docs/MAINTAINER_GUIDE.md)
 
