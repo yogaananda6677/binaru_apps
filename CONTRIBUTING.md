@@ -18,15 +18,18 @@ Thank you for helping improve Binaru. By participating, you agree to follow the 
 
 ## Standard workflow
 
-Issue → discussion → fork → branch → implementation → tests → pull request → maintainer review → merge
+Issue → create branch → implementation → validation → documentation → commit → push → pull request → maintainer review → maintainer merge
 
 1. Search existing Issues, then open a focused Issue if none covers the work.
-2. Wait for discussion or maintainer acknowledgement before significant implementation.
-3. Fork the repository and branch from the latest `main`.
+2. The Issue must be created before implementation begins. Wait for discussion or maintainer acknowledgement before significant implementation.
+3. Fork the repository and branch from the latest `main`. The branch name must reference the Issue number.
 4. Implement and test the smallest coherent change.
-5. Open a pull request that references the Issue with a closing keyword.
-6. Address review feedback and keep CI green.
-7. A maintainer performs the final merge.
+5. Validate the change, update its documentation, commit it, and push only the dedicated branch.
+6. Open a pull request that references the Issue with `Closes #<number>` when appropriate.
+7. Address review feedback and keep CI green.
+8. A maintainer performs the final review and merge.
+
+Codex and other automated agents must never implement directly on `main` or merge their own pull requests. These rules apply to Phase 1 and every future implementation phase.
 
 ## Branch naming
 
